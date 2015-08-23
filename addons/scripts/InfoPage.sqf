@@ -19,7 +19,7 @@ _text = "
 <t align='left'><img size='2' shadow = 0 image='mapConfig\img\del.paa'/></t><t align='left'><t size='1'><t shadow= 1 shadowColor='#000000'> Emergency Eject</t><br />
 <br />
 <t align='center'><t size='1.2'><t shadow= 1 shadowColor='#0000ff'>Have fun and respect other players. Hacking or exploiting will get you banned</t>
-<br />
+<br />";
 
 hint parseText format ["<t align='center'>Welcome %2</t><br />%1",_text, name player];
  
