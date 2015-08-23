@@ -26,7 +26,7 @@ player createDiaryRecord ["serverrules",
 <br/> 2.   NO Glitching or Combat logging is allowed it will cause punishment up to permanent ban.
 <br/> 3.   NO blocking or building around Stores or ATM´s is allowed it will cause punishment up to permanent ban.
 <br/> 4.   NO VOIP IN GLOBAL. Use the channels or Teamspeak!
-<br/> 5.   ONLY ENGLISH or DANISH CHATTING IS ALLOWED IN GLOBAL.
+<br/> 5.   ONLY ENGLISH or DANISH CHATTING IS ALLOWED IN GLOBAL and SIDE-CHAT.
 <br/> 6.   As Independant NO VOIP IN SIDECHAT is allowed (Writing is allowed). Use the group channels or Teamspeak!
 <br/> 7.   Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban.
 <br/> 8.   Keep bad language to a minimum. If you have a problem with another player, take it to direct.
@@ -41,7 +41,7 @@ player createDiaryRecord ["serverrules",
 
 player createDiaryRecord ["changelog",
  [
-"1.2a",
+"v1.2a",
 "
 <br/> [Added] Base locker (It is hackable and destroyable)
 <br/> [Added] Safe with keypad

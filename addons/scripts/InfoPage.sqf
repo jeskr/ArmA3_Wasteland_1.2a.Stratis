@@ -7,7 +7,7 @@
 sleep 30;   //delay before message is displayed after logging in
 	
 _text = "
-<t align='center'><t shadow= 1 shadowColor='#000000'><t size='1.2'><t color='#ff0000'>GamersInc. Wasteland Stratis</t>
+<t align='center'><t shadow= 1 shadowColor='#000000'><t size='1.2'><t color='#ff0000'>Zombro Wasteland Stratis</t>
 <br />
 <br />
 <t align='center'><t size='1.2'><t shadow= 1 shadowColor='#000000'>Keyboard Shortcuts</t><br />
@@ -20,7 +20,6 @@ _text = "
 <br />
 <t align='center'><t size='1.2'><t shadow= 1 shadowColor='#0000ff'>Have fun and respect other players. Hacking or exploiting will get you banned</t>
 <br />
-<t align='right'><img size='6' shadow = 0 image='mapConfig\logo.paa'/></t>";
 
 hint parseText format ["<t align='center'>Welcome %2</t><br />%1",_text, name player];
  
