@@ -94,7 +94,7 @@ switch (true) do
 		// Add DAGRs and flares to Pawnee's
 		_vehicle addWeaponTurret ["CMFlareLauncher", [-1]];
 		_vehicle addMagazineTurret ["120Rnd_CMFlare_Chaff_Magazine", [-1]];
-		_vehicle  addWeaponTurret ["missiles_DAGR", [-1]];
+//		_vehicle  addWeaponTurret ["missiles_DAGR", [-1]];
 		sleep 0.5;
 		_vehicle addMagazineTurret ["12Rnd_PG_missiles", [-1]];
 	};

@@ -65,12 +65,12 @@ class playerSettings {
 			w = 0.04 / (4/3); h = 0.04;
 		};
 		
-		class serverLogo : w_RscPicture {
+/*		class serverLogo : w_RscPicture {
 			idc = -1;
 			text = "mapconfig\logo.paa";
 			x = 0.225; y = 0.20;
 			w = 0.32 / (4/3); h = 0.32;
-		};
+		};*/
 
 		class waterText : w_RscText {
 			idc = water_text;

@@ -99,13 +99,7 @@ player createDiaryRecord ["changelog",
 <br/> [Changed] Spawnbeacon insertion to 0 mtrs
 <br/> [Changed] Ability to airlift crates
 <br/> [Changed] Old R3F script to version 3.1
-"
-]];
-
-player createDiaryRecord ["changelog",
-[
-"v1.2",
-"
+<br/> -----------------------------------------
 <br/>[Added] Mag Repack by Outlawled (Ctrl + " + NKEYNAME(19) + ")
 <br/>[Added] Adjustable NV by xx-LSD-xx (Shift + PageUp/Down)
 <br/>[Added] New vehicle store paintjobs
