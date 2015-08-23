@@ -72,7 +72,7 @@ if (_uid call isAdmin) then
 		};
 		case 2: //Slay
 		{
-			_target setDamage 1;
+//			_target setDamage 1;
 		};
 		case 3: //Unlock Team Switcher
 		{
