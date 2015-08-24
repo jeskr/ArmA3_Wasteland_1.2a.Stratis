@@ -71,7 +71,7 @@ switch (true) do
 	default // Everything else
 	{
 		_time = 5;
-		_money = 5000;
+		_money = 1000;
 	};
 };
 

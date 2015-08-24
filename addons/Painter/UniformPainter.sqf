@@ -60,5 +60,5 @@ player setObjectTextureGlobal  [0, _texDir + "leopard.paa"]; backpackContainer p
 };
 
 if (_paint == 8) then {
-player setObjectTextureGlobal  [0, _texDir + "rusty.paa"]; backpackContainer player setObjectTextureGlobal  [0, _texDir + "nazi.paa"];
+player setObjectTextureGlobal  [0, _texDir + "rusty.paa"]; backpackContainer player setObjectTextureGlobal  [0, _texDir + "rusty.paa"];
 };
