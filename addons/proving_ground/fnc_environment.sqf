@@ -21,7 +21,7 @@ case 0: {//init
 	};
 case 1: {//apply from editbox
 		_vd = (parseNumber ctrlText GET_CTRL(balca_env_VD_IDC)) max 0 min 10000;
-		_grass = (parseNumber ctrlText GET_CTRL(balca_env_grass_IDC)) max 0 min 50;
+		_grass = (parseNumber ctrlText GET_CTRL(balca_env_grass_IDC)) max 0 min 25;
 		_fog = (parseNumber ctrlText GET_CTRL(balca_env_fog_IDC)) max 0 min 1;
 		_overcast = (parseNumber ctrlText GET_CTRL(balca_env_overcast_IDC)) max 0 min 1;
 		_rain = (parseNumber ctrlText GET_CTRL(balca_env_rain_IDC)) max 0 min 1;

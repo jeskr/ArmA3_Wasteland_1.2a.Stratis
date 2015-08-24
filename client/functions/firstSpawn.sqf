@@ -9,7 +9,7 @@
 client_firstSpawn = true;
 
 
-setTerrainGrid 50;
+setTerrainGrid 25;
 [] execVM "addons\scripts\infoPage.sqf";
 
 // GoT addition - if this is the first spawn start the loyalty-timer

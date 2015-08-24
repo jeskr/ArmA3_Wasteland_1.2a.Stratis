@@ -43,6 +43,19 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Removed] Auto spotted Player tags
+<br/> [Removed] Mine tags (Still visible on map)
+<br/> [Added] New Vehicle Textures
+<br/> [Added] Sunken treasure reward adjusted
+<br/> [Removed] AllowNoGrass
+<br/> [Removed] GPS as default
+<br/> [Added] Uniformpainter adjusted
+<br/> [Added] Insurgent need to buy charge or satchel first
+<br/> [Added] Classes gear adjusted
+<br/> [Added] CorpseRemovalTime adjusted
+<br/> [Removed] Pawnee DAGR missiles
+<br/> [Removed] M5 Sandstorm MLRS from MBT mission
+<br/> -----------------------------------------
 <br/> [Added] Base locker (It is hackable and destroyable)
 <br/> [Added] Safe with keypad
 <br/> [Added] Wasteland item to put a pincode on a vehicle
