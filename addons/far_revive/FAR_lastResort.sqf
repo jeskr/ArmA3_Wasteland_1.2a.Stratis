@@ -45,6 +45,6 @@ if !(player getVariable ["performingDuty", false]) then
 	}
 	else
 	{
-		titleText ["Get an explosive charge next time, my child.", "PLAIN", 0.5];
+		titleText ["Get an explosive charge or satchel at a gun store first, my child.", "PLAIN", 0.5];
 	};
 };

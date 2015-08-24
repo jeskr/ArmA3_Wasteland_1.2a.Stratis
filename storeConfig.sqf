@@ -893,14 +893,23 @@ colorsArray = compileFinal str
 		"All",
 		[
 			["Bloodshot", _texDir + "bloodshot.paa"],
+			["Carbon", _texDir + "carbon.paa"],
+			["Digital", _texDir + "digi.paa"],
 			["Digital Woodland", _texDir + "digi_wood.paa"],
 			["Hello Kitty", _texDir + "hellokitty.paa"],
 			["Leopard", _texDir + "leopard.paa"],
-			["Nazi", _texDir + "nazi.paa"],
+//			["Nazi", _texDir + "nazi.paa"],
 			["Orange Camo", _texDir + "camo_orange.paa"],
+			["Pink Camo", _texDir + "camo_pink.paa"],
+			["Red Camo", _texDir + "camo_red.paa"],
+			["Rusty", _texDir + "rusty.paa"],
 			["Swamp", _texDir + "swamp.paa"],
 			["Urban", _texDir + "urban.paa"],
 			["Woodland", _texDir + "woodland.paa"],
+			["Woodland Dark", _texDir + "wooddark.paa"],
+			["Doritos", _texDir + "doritos.paa"],
+			["Hippie", _texDir + "hippie.paa"],
+			["Pride", _texDir + "pride.paa"],
 			["Black", _color + "(0.01,0.01,0.01,1)"], // #(argb,8,8,3)color(0.1,0.1,0.1,0.1)
 			["Gray", _color + "(0.15,0.151,0.152,1)"], // #(argb,8,8,3)color(0.5,0.51,0.512,0.3)
 			["White", _color + "(0.75,0.75,0.75,1)"], // #(argb,8,8,3)color(1,1,1,0.5)

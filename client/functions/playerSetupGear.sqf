@@ -22,7 +22,7 @@ if (_goggles != "") then { _player addGoggles _goggles };
 sleep 0.1;
 
 // Add GPS
-_player linkItem "ItemGPS";
+//_player linkItem "ItemGPS";
 
 // Remove NVG
 if (hmd _player != "") then { _player unlinkItem hmd _player };

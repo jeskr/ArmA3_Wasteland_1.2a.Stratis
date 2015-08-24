@@ -153,7 +153,7 @@ A3W_scriptThreads pushBack execVM "addons\Lootspawner\LSclientScan.sqf";
 [] execVM "addons\disableThermal\disablethermal.sqf";  //disable thermal vision
 
 // View Distance Settings 
-CHVD_allowNoGrass = true; // Set 'false' if you want to disable "None" option for terrain (default: true)
+CHVD_allowNoGrass = false; // Set 'false' if you want to disable "None" option for terrain (default: true)
 CHVD_maxView = 2000; // Set maximum view distance (default: 12000)
 CHVD_maxObj = 1750; // Set maximimum object view distance (default: 12000)
 

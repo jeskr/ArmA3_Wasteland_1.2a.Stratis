@@ -101,9 +101,9 @@
 			_player forceAddUniform "U_I_G_resistanceLeader_F";
 			_player addBackpack "B_AssaultPack_cbr";
 			_player addItemToVest "MineDetector";
-			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
-			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
-			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
+//			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
+//			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
+//			_player addItemtoBackpack "SatchelCharge_Remote_Mag";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";

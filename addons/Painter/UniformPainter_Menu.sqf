@@ -27,7 +27,7 @@ if (!isNil "_uid") then {
 		"Plain Wood ($ 1,500)",
 		"Hello Kitty ($ 1,500)",
 		"Leopard ($ 1,500)",
-		"Nazi ($ 1,500)"
+		"Rusty ($ 1,500)"
 	];
 
 	{
