@@ -330,7 +330,11 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 	"MBT_01_base_F",
 	"MBT_02_base_F",
 	"MBT_03_base_F",
-	"Land_Pod_Heli_Transport_04_box_F"
+	"Land_Pod_Heli_Transport_04_box_F",
+	"Land_Pod_Heli_Transport_04_box_F",
+	"Land_CargoBox_V1_F",
+	"Land_Cargo20_yellow_F",
+	"Land_Cargo40_white_F"
 ];
 
 
@@ -461,7 +465,10 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 	["Land_BarrelWater_F", 2],
 	["Land_Atm_01_F", 50],
 	["CamoNet_INDP_big_F", 5],
-	["C_Heli_light_01_digital_F",200]
+	["C_Heli_light_01_digital_F",200],
+	["C_Heli_light_01_digital_F",200],
+	["Land_HandyCam_F",2],
+	["Land_Laptop_F",5]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
@@ -544,5 +551,7 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 	"CamoNet_INDP_big_F",
 	"Land_Cargo20_yellow_F",
 	"Land_Cargo40_white_F",
-	"C_Heli_light_01_digital_F"
+	"C_Heli_light_01_digital_F",
+	"C_Heli_light_01_digital_F",
+	"Land_WoodenTable_small_F"
 ];

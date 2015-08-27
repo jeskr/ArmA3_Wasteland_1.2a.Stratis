@@ -1,5 +1,5 @@
 respawn="BASE";
-respawnDelay=30;
+respawnDelay=15;
 disabledAI=1;
 disableChannels[] = {2}; // {0} to disable global, {2} for command channel
 joinUnassigned = 0;
@@ -12,7 +12,7 @@ corpseRemovalMinTime = 15*60;
 corpseRemovalMaxTime = 30*60;
 wreckManagerMode = 1;
 wreckRemovalMinTime = 5*60;
-wreckRemovalMaxTime = 5*60;
+wreckRemovalMaxTime = 10*60;
 enableDebugConsole = 1;
 respawnDialog = 0; // do not enable this, otherwise the default scoreboard will overlap with the new one
 onPauseScript = "client\clientEvents\onPause.sqf";
