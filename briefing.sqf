@@ -43,6 +43,7 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Added] Selling planes only give $5000 (Find another way to get money)
 <br/> [Removed] Auto spotted Player tags
 <br/> [Removed] Mine tags (Still visible on map)
 <br/> [Added] New Vehicle Textures

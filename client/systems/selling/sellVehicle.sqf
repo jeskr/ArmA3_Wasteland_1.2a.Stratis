@@ -49,6 +49,12 @@ _objName = getText (configFile >> "CfgVehicles" >> _objClass >> "displayName");
 	_price = _price / CHOPSHOP_PRICE_RELATIONSHIP;
 	};
 	
+	// Added because of expensive planes on NLU server. Could make someone a millionaire.
+    if (_vehicle isKindOf "Plane") then
+    {
+    	_price = 5000;
+    };
+	
 } forEach (call allVehStoreVehicles);
 
 	if (!isNil "_price") then 

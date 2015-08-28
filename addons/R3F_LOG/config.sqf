@@ -408,6 +408,7 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 	["Land_Canal_Wall_10m_F", 10], // Base door
 	["Land_InfoStand_V2_F", 3], // Base door key
 	["Land_Device_assembled_F", 10], // Base locker
+	["Land_GH_Platform_F", 5], // Couldnt be loaded before
 	["StaticWeapon", 5],
 	["Box_NATO_AmmoVeh_F", 10],
 	["B_supplyCrate_F", 3],
