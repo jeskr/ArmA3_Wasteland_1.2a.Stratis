@@ -16,7 +16,7 @@ for "_i" from 0 to 1 step 0 do
 	
 	"lsd" call mf_inventory_get;
 	
-	if (isNil "createDrugsMarker" && _lsd > 3 || isNil "createDrugsMarker" && _mar > 3 || isNil "createDrugsMarker" && _coc > 3 || isNil "createDrugsMarker" && _her > 3) then
+	if (isNil "createDrugsMarker" && _lsd > 2 || isNil "createDrugsMarker" && _mar > 2 || isNil "createDrugsMarker" && _coc > 2 || isNil "createDrugsMarker" && _her > 2) then
 		{
 			_title  = "<t color='#ff0000' size='1.2' align='center'>Drugsrunner! </t><br />";
 			_name = format ["%1<br /> ",name player];     

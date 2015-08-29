@@ -8,7 +8,7 @@ _messages = [
 	["Teamspeak IP", "188.228.38.201"],
 	["Rules", "Check the Server Rules under Map."],
 	["ATM / Bank", "You can use any of the many ATMs found in Stratis. Marked on map as a yellow A"],
-	["HvT", "High value targets with more than 100K are marked on the map with 60 secs. interval"],
+	["HvT", "High value targets with more than 60K are marked on the map with 60 secs. interval"],
 	["Earplugs", "Put in/out your earplugs by using the END key."],
 	["Emergency Eject", "Emergency Eject by using the DEL key."],
 	["Holster your weapon", "by using the H key."],
