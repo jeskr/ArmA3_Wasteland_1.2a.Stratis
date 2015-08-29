@@ -6,8 +6,8 @@
 //	@file Author: LouD
 //	@file Created: 15-08-2015
 
-_confirmMsg = format ["This will delete all unlocked (had to be locked first) base objects within 15m. This happens with a small delay so the admin will not be kicked for MaxDeleteVehiclePerInterval. Carefull this can also delete NPC's and other stuff.<br/>"];
-_confirmMsg = _confirmMsg + format ["<br/>Delete Objects (15m)?"];
+_confirmMsg = format ["This will delete all unlocked (had to be locked first) base objects within 30m. This happens with a small delay so the admin will not be kicked for MaxDeleteVehiclePerInterval. Carefull this can also delete NPC's and other stuff.<br/>"];
+_confirmMsg = _confirmMsg + format ["<br/>Delete Objects (30m)?"];
 
 if ([parseText _confirmMsg, "Confirm", "CONFIRM", true] call BIS_fnc_guiMessage) then
 {
@@ -17,6 +17,6 @@ if ([parseText _confirmMsg, "Confirm", "CONFIRM", true] call BIS_fnc_guiMessage)
 			deleteVehicle _x;
 			sleep 0.25;
 		};
-	} forEach (nearestObjects [position player, ["thingX", "Building", "ReammoBox_F"], 15]);
-	hint format["You have deleted all unlocked base objects within 15m of the area"];
+	} forEach (nearestObjects [position player, ["thingX", "Building", "ReammoBox_F"], 30]);
+	hint format["You have deleted all unlocked base objects within 30m of the area"];
 };

@@ -43,8 +43,10 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
-<br/> [Added] Drugrunners are marked on map (Carry 2 or more of any kind of drugs)
-<br/> [Added] High Value Target is marked on map. (Over 60K)
+<br/> [Added] More Admin Tools added
+<br/> [Added] Minor weather change (Less rain, overcast and wind)
+<br/> [Changed] Drugrunners are marked on map (Carry 2 or more of any kind of drugs)
+<br/> [Changed] High Value Target is marked on map. (Over 60K)
 <br/> [Added] Selling planes only give $5000 (Find another way to get money)
 <br/> [Removed] Auto spotted Player tags
 <br/> [Removed] Mine tags (Still visible on map)

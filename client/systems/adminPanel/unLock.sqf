@@ -6,8 +6,12 @@
 //	@file Author: LouD
 //	@file Created: 15-08-2015
 
-_confirmMsg = format ["This will unlock all base objects within 15m<br/>"];
-_confirmMsg = _confirmMsg + format ["<br/>Unlock Objects (15m)? "];
+#define RADIUS 30
+_objects = nearestObjects [position player, ["thingX", "Building", "ReammoBox_F"], RADIUS];
+_lockedObjects = {typeName _x == "OBJECT" && {!(isNil {_x getVariable "ownerUID"})} && {_x getVariable "objectLocked"}} count _objects;
+
+_confirmMsg = format ["This will unlock %1 base objects within %2m.<br/>(Doesn't always return true amount of objects)<br/>", _lockedObjects, RADIUS];
+_confirmMsg = _confirmMsg + format ["<br/>Unlock Objects?"];
 
 if ([parseText _confirmMsg, "Confirm", "CONFIRM", true] call BIS_fnc_guiMessage) then
 {
@@ -16,6 +20,6 @@ if ([parseText _confirmMsg, "Confirm", "CONFIRM", true] call BIS_fnc_guiMessage)
 		{
 			_x setVariable ["objectLocked", false, true];
 		};
-	} forEach (nearestObjects [position player, ["thingX", "Building", "ReammoBox_F"], 15]);
-	hint format["You have unlocked all base objects within 15m of the area"];
+	} forEach _objects;
+	hint format["You have unlocked all base objects within %1m of the area", RADIUS];
 };
