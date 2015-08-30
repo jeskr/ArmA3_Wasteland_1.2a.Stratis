@@ -43,6 +43,9 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Changed] Hackers spawns more often
+<br/> [Changed] Sunken Treasure now pays 60K
+<br/> [Added] Max 2 spawnbeacons
 <br/> [Added] More Admin Tools added
 <br/> [Added] Minor weather change (Less rain, overcast and wind)
 <br/> [Changed] Drugrunners are marked on map (Carry 2 or more of any kind of drugs)

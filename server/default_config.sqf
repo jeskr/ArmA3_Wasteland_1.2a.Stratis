@@ -150,7 +150,7 @@ MainMissions =
 	["mission_ArmedDiversquad", 1],
 	["mission_Coastal_Convoy", 0.5],
 	["mission_Convoy", 1],
-	["mission_Hackers", 0.5],
+	["mission_Hackers", 1.0],
 	["mission_HostileHeliFormation", 0.5],
 	["mission_HostileJetFormation", 0.5],
 	["mission_APC", 1],
