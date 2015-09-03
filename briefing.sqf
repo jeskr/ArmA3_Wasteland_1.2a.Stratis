@@ -43,6 +43,8 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Added] Fix for baselocker lights not staying off.
+<br/> [Removed] Mortars in store
 <br/> [Changed] Hackers spawns more often
 <br/> [Changed] Sunken Treasure now pays 60K
 <br/> [Added] Max 2 spawnbeacons
