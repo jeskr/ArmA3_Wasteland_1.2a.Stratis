@@ -43,14 +43,15 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
-<br/> [Added] Fix for baselocker lights not staying off.
+<br/> [Added] DEFAULT ViewSettings is set to FAR.
+<br/> [Added] Baselockers rotor lights can be shut off.
 <br/> [Removed] Mortars in store
 <br/> [Changed] Hackers spawns more often
 <br/> [Changed] Sunken Treasure now pays 60K
 <br/> [Added] Max 2 spawnbeacons
 <br/> [Added] More Admin Tools added
 <br/> [Added] Minor weather change (Less rain, overcast and wind)
-<br/> [Changed] Drugrunners are marked on map (Carry 2 or more of any kind of drugs)
+<br/> [Changed] Drugrunners are marked on map (Carry 3 or more of any kind of drugs)
 <br/> [Changed] High Value Target is marked on map. (Over 60K)
 <br/> [Added] Selling planes only give $5000 (Find another way to get money)
 <br/> [Removed] Auto spotted Player tags

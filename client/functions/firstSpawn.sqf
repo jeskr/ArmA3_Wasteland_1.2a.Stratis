@@ -9,7 +9,10 @@
 client_firstSpawn = true;
 
 
-setTerrainGrid 25;
+//setTerrainGrid 25; // Changed to 25 NoGrass
+setTerrainGrid 12.5; //Added by Jes as a test
+setViewDistance 3000; // Added by Jes as a test
+setObjectViewDistance 2500; // Added by Jes as a test
 [] execVM "addons\scripts\infoPage.sqf";
 
 // GoT addition - if this is the first spawn start the loyalty-timer
