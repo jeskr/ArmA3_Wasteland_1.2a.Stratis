@@ -81,8 +81,8 @@ _setupObjects =
 	_aiGroup selectLeader _leader;
 	_leader setRank "LIEUTENANT";
 	
-	_aiGroup setCombatMode "RED";
-	_aiGroup setBehaviour "COMBAT";
+	_aiGroup setCombatMode "GREEN";
+	_aiGroup setBehaviour "AWARE";
 	_aiGroup setFormation "LINE";
 
 	_speedMode = if (missionDifficultyHard) then { "NORMAL" } else { "LIMITED" };

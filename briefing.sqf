@@ -36,6 +36,7 @@ player createDiaryRecord ["serverrules",
 <br/> 12.  Respect the administrators.
 <br/> 13.  Camping stores is allowed. Wasteland is a HARSH survival map. Learn to deal with it and go on your way.
 <br/> 14.  Bank Balances are non-refundable.
+<br/> 15.  High builded bases are NOT allowed (Too OP), they will be deleted.
 "
 ]];
 
@@ -43,6 +44,14 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Changed] Hostile jets missions made easier
+<br/> [Added] Server rules
+<br/> [Changed] Launcher missile/rockets prices adjustet
+<br/> [Changed] Scope prices adjustet
+<br/> -----------------------------------------
+<br/> [Added] Hackers mission now working again.
+<br/> [Added] Weather changes
+<br/> [Added] AI differculty/Spawn lowered on Hostile Jet missions.
 <br/> [Added] DEFAULT ViewSettings is set to FAR.
 <br/> [Added] Baselockers rotor lights can be shut off.
 <br/> [Removed] Mortars in store

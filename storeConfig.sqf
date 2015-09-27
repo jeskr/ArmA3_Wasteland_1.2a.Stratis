@@ -201,12 +201,12 @@ ammoArray = compileFinal str
 	["12.7mm 10Rnd Mag", "10Rnd_127x54_Mag", 110], //DLC Ammo
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 100],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 120],
-	["RPG-42 Anti-Tank Rocket", "RPG32_F", 500],              // Direct damage: high      | Splash damage: low    | Guidance: none
-	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 500],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-	["PCML Anti-Tank Missile", "NLAW_F", 600],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 750],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-	["Titan Anti-Personnel Missile", "Titan_AP", 750],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-	["Titan Anti-Air Missile", "Titan_AA", 750],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
+	["RPG-42 Anti-Tank Rocket", "RPG32_F", 1500],              // Direct damage: high      | Splash damage: low    | Guidance: none
+	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 1500],      // Direct damage: medium    | Splash damage: medium | Guidance: none
+	["PCML Anti-Tank Missile", "NLAW_F", 2000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
+	["Titan Anti-Tank Missile", "Titan_AT", 2500],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
+	["Titan Anti-Personnel Missile", "Titan_AP", 2500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
+	["Titan Anti-Air Missile", "Titan_AA", 2500],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 250],
 	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 500],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 100],
@@ -280,9 +280,9 @@ accessoriesArray = compileFinal str
 	["Kahlia (Old)", "optic_KHS_old", 800, "item"], // DLC Item
 	["Kahlia (Tan)", "optic_KHS_tan", 600, "item"], // DLC Item
 	["LRPS", "optic_LRPS", 1000, "item"],
-	["NVS", "optic_NVS", 2500, "item"],
-	["TWS MG", "optic_tws_mg", 7500, "item"],
-	["TWS", "optic_tws", 7500, "item"],
+	["NVS", "optic_NVS", 5000, "item"],
+	["TWS MG", "optic_tws_mg", 10000, "item"],
+	["TWS", "optic_tws", 10000, "item"],
 	["Nightstalker", "optic_Nightstalker", 15000, "item"]
 ];
 

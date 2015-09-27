@@ -59,8 +59,8 @@ _setupObjects =
 //	_leader = effectiveCommander _vehicle;
 //	_aiGroup selectLeader _leader;
 
-	_aiGroup setCombatMode "RED"; // Defensive behaviour
-	_aiGroup setBehaviour "COMBAT";
+	_aiGroup setCombatMode "GREEN"; // Defensive behaviour
+	_aiGroup setBehaviour "AWARE";
 	_aiGroup setFormation "STAG COLUMN";
 
 //	_speedMode = if (missionDifficultyHard) then { "NORMAL" } else { "LIMITED" };
@@ -72,7 +72,7 @@ _setupObjects =
 		_waypoint = _aiGroup addWaypoint [markerPos (_x select 0), 0];
 		_waypoint setWaypointType "SAD";
 		_waypoint setWaypointCompletionRadius 50;
-		_waypoint setWaypointCombatMode "RED";
+		_waypoint setWaypointCombatMode "YELLOW";
 		_waypoint setWaypointBehaviour "AWARE";
 		_waypoint setWaypointFormation "STAG COLUMN";
 		_waypoint setWaypointSpeed "NORMAL";
