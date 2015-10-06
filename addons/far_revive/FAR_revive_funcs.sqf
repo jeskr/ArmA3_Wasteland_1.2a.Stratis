@@ -1,5 +1,5 @@
 // ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
+// * This project is licensed under the GNU Affero GPL v3. Copyright � 2014 A3Wasteland.com *
 // ******************************************************************************************
 #include "FAR_defines.sqf"
 
@@ -203,6 +203,7 @@ call mf_compile;
 ////////////////////////////////////////////////
 FAR_public_EH =
 {
+	
 	if(count _this < 2) exitWith {};
 
 	_EH  = _this select 0;
@@ -217,19 +218,23 @@ FAR_public_EH =
 	// FAR_deathMessage
 	if (_EH == "FAR_deathMessage") then
 	{
+		private ["_curWeapon", "_dist"];
 		_names = _value select 0;
 		_unitName = _names select 0;
 		_killerName = _names param [1, nil];
 		_unit = objectFromNetId (_value select 1);
 		_killer = objectFromNetId (_value select 2);
+		_curWeapon = currentWeapon _killer;
+		_dist = _killer distance _unit;
 		if (alive _unit) then
 		{
 			switch (true) do
 			{
 				case (isNil "_killerName"): { systemChat format ["%1 was wounded", toString _unitName]; };
 				case (!isNil "_killerName" && !isPlayer _killer): { systemChat format ["%1 was wounded by enemy AI", toString _unitName]; };
+				//case (!isNil "_unitName" && isPlayer _killer): { systemChat format ["%1 took out an enemy AI", toString _unitName]; };
 				default {
-				systemChat format ["%1 was wounded by %2", toString _unitName, toString _killerName]; 
+				systemChat format ["%1 was wounded by %2 from %3m with a %4", toString _unitName, toString _killerName, round _dist, getText(configFile >> "CfgWeapons" >> _curWeapon >> "DisplayName")]; 
 				};
 			};
 		};
@@ -380,7 +385,7 @@ FAR_CheckFriendlies =
 	private ["_units", "_msg", "_medics", "_medicsText", "_dir", "_cardinal"];
 
 	_units = player nearEntities ["AllVehicles", 1000];
-	_msg = "<t underline='true'>Nearby medics</t>"; // Non-breaking space (Alt+255) between "nearby" and "medics", otherwise the underline is split between the 2 words
+	_msg = "<t underline='true'>Nearby medics</t>"; // Non-breaking space (Alt+255) between "nearby" and "medics", otherwise the underline is split between the 2 words
 	_medics = [];
 	_medicsText = "";
 
