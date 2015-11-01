@@ -46,6 +46,7 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Added] Helicrash sites added
 <br/> [Changed] Hostile jets missions made easier
 <br/> [Added] Server rules
 <br/> [Changed] Launcher missile/rockets prices adjustet

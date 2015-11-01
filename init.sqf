@@ -94,5 +94,10 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvT.sqf";                       // High Value Target
 	[] execVM "addons\HvT\HvD.sqf";                       // High Value Drugrunner
 	[] execVM "addons\TearGas\tear_gas.sqf"; 			  // teargass bitches !
+	
+	//Heli crash sites
+	ETG_Cargo_Drop_Mission = 0;
+	_nul = execVM "addons\helicrash\ETG_HeliCrashAndDropScript.sqf";
+	
 	if (isServer) then {call compile preprocessFile "mapconfig\structures\initBuildings.sqf";}; // GID Positioning System
 };
