@@ -37,6 +37,8 @@ player createDiaryRecord ["serverrules",
 <br/> 13.  Camping stores is allowed. Wasteland is a HARSH survival map. Learn to deal with it and go on your way.
 <br/> 14.  Bank Balances are non-refundable.
 <br/> 15.  High builded bases are NOT allowed (Too OP), they will be deleted.
+<br/> 16.  Disconnecting while being High Value Target will result in BAN.
+<br/> 17.  NO offending playernames is allowed.
 "
 ]];
 

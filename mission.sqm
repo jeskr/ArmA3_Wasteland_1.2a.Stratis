@@ -6682,7 +6682,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=164;
+		items=165;
 		class Item0
 		{
 			position[]={4354.5615,225.49734,3786.6997};
@@ -7946,6 +7946,14 @@ class Mission
 			name="Town_19";
 			text="Town_19";
 			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item164
+		{
+			position[]={1727.9773,0.27959383,6795.0972};
+			name="TeamSpeak 3";
+			text="TeamSpeak 3: 188.228.38.201";
+			type="hd_warning";
 			colorName="ColorBlack";
 		};
 	};
