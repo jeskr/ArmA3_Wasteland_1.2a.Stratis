@@ -46,6 +46,7 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Changed] High Value Target is marked on map. (Over 80K)
 <br/> [Added] Helicrash sites added
 <br/> [Changed] Hostile jets missions made easier
 <br/> [Added] Server rules
