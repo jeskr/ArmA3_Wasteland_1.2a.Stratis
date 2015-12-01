@@ -80,7 +80,7 @@
 			_player addItem "HandGrenade";
 			_player addWeapon "launch_RPG32_F";
 			_player addMagazine "RPG32_F";
-			_player addMagazine "RPG32_F";
+//			_player addMagazine "RPG32_F";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
@@ -151,9 +151,9 @@
 			_player addItem "SmokeShellYellow";
 			_player addItem "FirstAidKit";
 			_player addItem "FirstAidKit";
-			_player addMagazine "130Rnd_338_Mag";
-			_player addWeapon "MMG_02_black_F";
-			_player addPrimaryWeaponItem "optic_aco_smg";
+			_player addMagazine "200Rnd_65x39_cased_Box";
+			_player addWeapon "LMG_Mk200_BI_F";
+			_player addPrimaryWeaponItem "optic_Aco_smg";
 			_player addPrimaryWeaponItem "bipod_01_F_blk";
 			_player addHeadgear "H_PilotHelmetFighter_B";
 			};

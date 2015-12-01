@@ -59,7 +59,7 @@ if (isServer) then {
 /////////////////
 _SleepTime = 30*60;											//Time between every heli crash/supply drop in seconds (integer)
 _SleepTimeRandom = false;									//If true will randomize your time between the drops/crashes
-_AllowMarkers = false;										//Do you want markers at the helicrashes and supply drops? (true,false)
+_AllowMarkers = false;										//Do you want markers at the helicrashes and supply drops? (true, false)
 _Debug = false;												//creates a marker on the map matching the position of the heli (true/false)
 _MarkerType = "n_service";									//Type of marker? (https://community.bistudio.com/wiki/cfgMarkers) (string)
 _LootOnGround = false;										//Do you want to spawn the loot at the heli crash on the ground or inside of the boxes? (true,false)
@@ -67,8 +67,8 @@ _FlyHeight = 200;											//Height the heli shoud fly at - altitude (in meters
 _LootSpawnRadius = 20;										//Radius around the crate/crates the loot will spawn in
 _CrateSpawnRadius = 30;										//Radius around the crashsite the crates will spawn in
 _FireAtCrashSite = true;									//Should fire be around the helicrashsite ? (true/false)
-_AI_Crash = true;											//AI at crashes ? (true/false)
-_AI_Drop = true;											//AI at supply drops ? (true/false)
+_AI_Crash = false;											//AI at crashes ? (true/false)
+_AI_Drop = false;											//AI at supply drops ? (true/false)
 _DeletionDelay = 20*60;										//Time the helicrashes/supply drops will stay and be deleted after (time in seconds)
 _CratesAtCrashes = true;                                  	//Do you want crates at your heli crash ? (true/false) - keep in mind to set _LootOnGround to true when setting this to false!!!
 _MaxAmmountOfItems = 5;										//Ammount of Magazines and Items that can spawn at one lootpile

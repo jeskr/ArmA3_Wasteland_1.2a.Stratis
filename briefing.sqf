@@ -35,7 +35,7 @@ player createDiaryRecord ["serverrules",
 <br/> 11.  Respect other players.
 <br/> 12.  Respect the administrators.
 <br/> 13.  Camping stores is allowed. Wasteland is a HARSH survival map. Learn to deal with it and go on your way.
-<br/> 14.  Bank Balances are non-refundable.
+<br/> 14.  Bank Balances/Lost stuff etc. are non-refundable.
 <br/> 15.  High builded bases are NOT allowed (Too OP), they will be deleted.
 <br/> 16.  Disconnecting while being High Value Target will result in BAN.
 <br/> 17.  NO offending playernames is allowed.
@@ -46,6 +46,9 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Changed] Hackers spawns less
+<br/> -----------------------------------------
+<br/> [Changed] Hazmat loadout changed.
 <br/> [Changed] High Value Target is marked on map. (Over 80K)
 <br/> [Added] Helicrash sites added
 <br/> [Changed] Hostile jets missions made easier
