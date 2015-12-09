@@ -97,7 +97,7 @@ if (!_handled && _key in actionKeys "GetOver") then
 			if (_veh isKindOf "ParachuteBase") then
 			{
 				// 1s cooldown after parachute is deployed so you don't start falling again if you double-tap the key
-				if (isNil "openParachuteTimestamp" || {diag_tickTime - openParachuteTimestamp >= 1}) then
+				if (isNil "openParachuteTimestamp" || {diag_tickTime - openParachuteTimestamp >= 2}) then
 				{
 					moveOut player;
 					_veh spawn

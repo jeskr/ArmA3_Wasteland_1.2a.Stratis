@@ -46,8 +46,11 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
-<br/> [Changed] Hackers spawns less
+<br/> [Changed] Gunstore 4 moved to original position
+<br/> [Fixed] Parachute bug
+<br/> [Fixed] New weight/stamina system fixed
 <br/> -----------------------------------------
+<br/> [Changed] Hackers spawns less
 <br/> [Changed] Hazmat loadout changed.
 <br/> [Changed] High Value Target is marked on map. (Over 80K)
 <br/> [Added] Helicrash sites added

@@ -226,8 +226,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3053.9822,167.32846,2157.4272};
-					azimut=132.42839;
+					position[]={2762.7305,143.93034,1759.8417};
+					azimut=87.937881;
 					id=4;
 					side="LOGIC";
 					vehicle="C_man_polo_2_F_asia";
@@ -6500,8 +6500,8 @@ class Mission
 		};
 		class Item333
 		{
-			position[]={3061.4463,167.08966,2164.3657};
-			azimut=-137.769;
+			position[]={2798.9282,143.38229,1745.5903};
+			azimut=-121.78954;
 			id=491;
 			side="EMPTY";
 			vehicle="Land_Atm_01_F";
@@ -7357,11 +7357,10 @@ class Mission
 		};
 		class Item93
 		{
-			position[]={3068.0295,167.7298,2144.1709};
+			position[]={2778.4402,143.64824,1748.188};
 			name="GunStore3_objSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=-40.114899;
 		};
 		class Item94
 		{
@@ -7952,7 +7951,7 @@ class Mission
 		{
 			position[]={1727.9773,0.27959383,6795.0972};
 			name="TeamSpeak 3";
-			text="TeamSpeak 3: 188.228.38.201";
+			text="Join TeamSpeak 3: 188.228.38.201";
 			type="hd_warning";
 			colorName="ColorBlack";
 		};
