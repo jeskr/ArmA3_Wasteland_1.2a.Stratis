@@ -22,5 +22,8 @@
 	["TERRITORY_8", "Kill Farm", 1000],
 	["TERRITORY_9", "Stratis Airbase Town", 1000],
 	["TERRITORY_10", "Radar Station", 1000],
-	["TERRITORY_11", "Nisi Bay", 1000]
+	["TERRITORY_11", "Nisi Bay", 1000],
+	["TERRITORY_12", "Agios Ioannis", 1000],
+	["TERRITORY_13", "LZ Connor", 1000],
+	["TERRITORY_14", "Agios Cephas", 1000]
 ]

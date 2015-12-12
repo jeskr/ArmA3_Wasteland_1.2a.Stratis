@@ -114,6 +114,8 @@ class Mission
 		"A3_Structures_F_Dominants_Hospital",
 		"A3_Boat_F_Trawler",
 		"A3_Structures_F_Heli_Ind_Cargo",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Structures_F_Mil_Flags",
 		"a3_map_stratis"
 	};
 	randomSeed=7826573;
@@ -3154,7 +3156,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=351;
+		items=368;
 		class Item0
 		{
 			position[]={2291.26,0,1121.16};
@@ -6679,10 +6681,198 @@ class Mission
 			skill=0.40000001;
 			init="this setPos [ getPos this select 0, getPos this select 1, 0];this setVectorUp[0,-0,0.5];this setVariable [""R3F_LOG_disabled"", true]";
 		};
+		class Item351
+		{
+			position[]={2987.636,171.39076,1872.4192};
+			azimut=-24.576921;
+			id=509;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V2_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item352
+		{
+			position[]={2947.7661,175.72963,1835.2942};
+			azimut=35.487988;
+			offsetY=-0.20263021;
+			id=510;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V2_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item353
+		{
+			position[]={3027.647,165.10168,1833.0402};
+			azimut=130.4404;
+			id=511;
+			side="EMPTY";
+			vehicle="Land_TBox_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item354
+		{
+			position[]={3012.8225,170.63225,1869.1674};
+			id=512;
+			side="EMPTY";
+			vehicle="Land_CanisterPlastic_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item355
+		{
+			position[]={2987.7131,171.34526,1881.5239};
+			azimut=-26.306824;
+			offsetY=0.56253982;
+			id=513;
+			side="EMPTY";
+			vehicle="Land_cargo_addon02_V2_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item356
+		{
+			position[]={2957.4543,171.37427,1870.655};
+			azimut=-74.399345;
+			id=514;
+			side="EMPTY";
+			vehicle="Land_FieldToilet_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item357
+		{
+			position[]={3006.1279,170.92564,1881.6764};
+			azimut=-114.607;
+			id=515;
+			side="EMPTY";
+			vehicle="Land_FuelStation_Feed_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item358
+		{
+			position[]={3003.5288,171.02716,1891.5952};
+			id=516;
+			side="EMPTY";
+			vehicle="FlagPole_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item359
+		{
+			position[]={2952.8311,171.55724,1861.4863};
+			azimut=165.151;
+			id=517;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.2;
+			init="[this, true, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item360
+		{
+			position[]={3029.1548,164.77325,1841.6025};
+			azimut=-56.801899;
+			id=518;
+			side="EMPTY";
+			vehicle="Land_Slum_House01_F";
+			skill=0.2;
+			init="[this, true, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item361
+		{
+			position[]={3035.5459,164.13046,1838.9335};
+			id=519;
+			side="EMPTY";
+			vehicle="Land_ConcretePipe_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item362
+		{
+			position[]={3029.9287,164.77026,1845.7177};
+			azimut=39.478985;
+			offsetY=-0.14348418;
+			id=520;
+			side="EMPTY";
+			vehicle="Land_IronPipes_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item363
+		{
+			position[]={3030.1902,164.68398,1842.0736};
+			id=521;
+			side="EMPTY";
+			vehicle="Land_JunkPile_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item364
+		{
+			position[]={2968.605,171.87909,1850.5028};
+			id=522;
+			side="EMPTY";
+			vehicle="Land_Pallets_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item365
+		{
+			position[]={2968.4438,172.14079,1848.0236};
+			azimut=37.96656;
+			offsetY=0.67508;
+			id=523;
+			side="EMPTY";
+			vehicle="Land_Sacks_heap_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item366
+		{
+			position[]={2973.375,172.2061,1847.6827};
+			azimut=127.38751;
+			offsetY=0.61482847;
+			id=524;
+			side="EMPTY";
+			vehicle="Land_WoodenBox_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item367
+		{
+			position[]={2970.8782,172.25331,1846.7673};
+			azimut=33.431004;
+			offsetY=0.54043585;
+			id=525;
+			side="EMPTY";
+			vehicle="Land_CratesWooden_F";
+			skill=0.2;
+			init="[this, true] call A3W_fnc_setupMissionObject";
+			description="DO NOT MODIFY IN EDITOR";
+		};
 	};
 	class Markers
 	{
-		items=165;
+		items=170;
 		class Item0
 		{
 			position[]={4354.5615,225.49734,3786.6997};
@@ -6693,7 +6883,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={2781.0901,0,1751.45};
+			position[]={2780.2551,143.6301,1746.7981};
 			name="Town_3";
 			text="Agios Cephas";
 			type="Empty";
@@ -7954,6 +8144,59 @@ class Mission
 			text="Join TeamSpeak 3: 188.228.38.201";
 			type="hd_warning";
 			colorName="ColorBlack";
+		};
+		class Item165
+		{
+			position[]={2984.741,171.39815,1871.8947};
+			name="Town_20";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item166
+		{
+			position[]={2985.7776,171.39079,1876.1278};
+			name="TERRITORY_13";
+			text="LZ CONNOR";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=60;
+			b=60;
+			angle=-39.101898;
+		};
+		class Item167
+		{
+			position[]={3068.4053,167.731,2143.0093};
+			name="Town_21";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item168
+		{
+			position[]={3074.8271,167.78259,2145.1372};
+			name="TERRITORY_12";
+			text="AGIOS IOANNIS";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=50;
+			angle=-39.101898;
+		};
+		class Item169
+		{
+			position[]={2774.4927,143.19023,1741.6737};
+			name="TERRITORY_14";
+			text="AGIOS CEPHAS";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=100;
+			b=100;
+			angle=-39.101898;
 		};
 	};
 };

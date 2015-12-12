@@ -46,7 +46,10 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
-<br/> [Changed] Gunstore 4 moved to original position
+<br/> [Removed] Showing kill weapon. Not showing correct sometimes.
+<br/> [Changed] Agios Ioannis back as the old days
+<br/> [Changed] LZ Connor back as the old days
+<br/> [Changed] Gunstore 4 moved to original position (Better fights)
 <br/> [Fixed] Parachute bug
 <br/> [Fixed] New weight/stamina system fixed
 <br/> -----------------------------------------

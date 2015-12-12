@@ -234,7 +234,7 @@ FAR_public_EH =
 				case (!isNil "_killerName" && !isPlayer _killer): { systemChat format ["%1 was wounded by enemy AI", toString _unitName]; };
 				//case (!isNil "_unitName" && isPlayer _killer): { systemChat format ["%1 took out an enemy AI", toString _unitName]; };
 				default {
-				systemChat format ["%1 was wounded by %2 from %3m with a %4", toString _unitName, toString _killerName, round _dist, getText(configFile >> "CfgWeapons" >> _curWeapon >> "DisplayName")]; 
+				systemChat format ["%1 was wounded by %2 from %3m", toString _unitName, toString _killerName, round _dist, getText(configFile >> "CfgWeapons" >> _curWeapon >> "DisplayName")]; 
 				};
 			};
 		};
