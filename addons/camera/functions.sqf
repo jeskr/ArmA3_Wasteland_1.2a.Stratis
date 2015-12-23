@@ -1242,12 +1242,19 @@ camera_update_key_tracker = {
 camera_show_info = {
   private["_target"];
 	_target = _this select 0;
+	_damage = round ((1 - (damage _target)) * 100);
+	_wallet = _target getVariable ["cmoney",0] call fn_numbersText;
+	_stamina = _target getVariable ["bmoney",0] call fn_numbersText;
+	_curWeapon = currentWeapon _target;
 
-	hintSilent format["name: %1\ndamage: %2\nfatigue: %3\nrecoil: %4",
+	hintSilent format["Name: %1\nPlayer/Vehicle damage: %2\nFatigue: %3\nRecoil: %4\nWallet: %5\nATM: %6\nWeapon: %7",
 	  (name _target),
-	  (damage _target),
+	  _damage,
 	  (getFatigue _target),
-	  (unitRecoilCoefficient _target)
+	  (unitRecoilCoefficient _target),
+	  _wallet,
+	  _stamina,
+	  (getText(configFile >> "CfgWeapons" >> _curWeapon >> "DisplayName"))
 	 ];
 };
 
