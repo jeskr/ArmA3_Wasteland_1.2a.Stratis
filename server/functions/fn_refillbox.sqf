@@ -117,6 +117,19 @@ switch (_boxType) do
 			["itm", ["optic_DMS","optic_AMS","optic_KHS_blk"], RANDOM_BETWEEN(5,8)]
 		];
 	};
+		case "Thermals_Snipers":
+	{
+		_boxItems =
+		[
+			// Item type, Item class(es), # of items, # of magazines per weapon
+			["wep", ["srifle_LRR_LRPS_F", "srifle_LRR_camo_LRPS_F", "srifle_GM6_LRPS_F", "srifle_GM6_camo_LRPS_F"], RANDOM_BETWEEN(3,4), RANDOM_BETWEEN(6,8)],
+			["wep", ["srifle_EBR_F", "srifle_DMR_01_F"], RANDOM_BETWEEN(2,3), RANDOM_BETWEEN(6,8)],
+			["wep", ["Binocular", "Rangefinder"], RANDOM_BETWEEN(1,3)],
+			["bac", ["B_Carryall_mcamo", "B_Kitbag_mcamo"], RANDOM_BETWEEN(2,5)],	
+			["itm", "ItemGPS", RANDOM_BETWEEN(0,1)],
+			["itm", ["optic_Nightstalker","optic_tws","optic_tws_mg"], RANDOM_BETWEEN(1,2)]
+		];
+	};
 	case "Diving_Gear": //diving equipment for squad of 2
 	{
 		_boxItems =
@@ -143,7 +156,7 @@ switch (_boxType) do
 			["wep", ["srifle_LRR_SOS_F", "srifle_LRR_camo_SOS_F", "srifle_GM6_SOS_F", "srifle_GM6_camo_SOS_F"], RANDOM_BETWEEN(1,5), RANDOM_BETWEEN(4,6)],
 			["wep", ["srifle_EBR_F", "srifle_DMR_01_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],			
 			["wep", "Rangefinder", RANDOM_BETWEEN(1,3)],
-			["itm", ["optic_DMS","optic_AMS","optic_SOS"], RANDOM_BETWEEN(1,5)]
+			["itm", ["optic_DMS","optic_AMS","optic_SOS"], RANDOM_BETWEEN(2,5)]
 		];
 	};
 	case "mission_TOP_Gear1":

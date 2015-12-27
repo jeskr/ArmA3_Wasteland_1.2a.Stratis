@@ -275,7 +275,7 @@ lootItem_list =
 			"NVGoggles",
 			//"NVGoggles_INDEP",
 			//"NVGoggles_OPFOR",
-			"optic_Nightstalker",
+			//"optic_Nightstalker",
 			"optic_NVS",
 			"optic_SOS",
 			"V_RebreatherB"

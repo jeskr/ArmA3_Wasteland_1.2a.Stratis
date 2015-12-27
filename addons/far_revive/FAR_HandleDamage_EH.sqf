@@ -15,7 +15,8 @@ _unit = _this select 0;
 _source = _this select 3;
 _ammo = _this select 4;
 
-_criticalHit = (_selection in ["","body","head"]);
+_criticalHit = (_selection in ["","body","head","face_hub","neck","pelvis","spine1","spine2","spine3"]);
+_dead = (_damage > 0.9 && alive _unit && _criticalHit);
 _dead = (_damage >= 1 && alive _unit && _criticalHit);
 
 // Find suspects

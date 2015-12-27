@@ -21,15 +21,15 @@ APOC_AA_VehOptions =
 
 APOC_AA_SupOptions =
 [
-	["Base in a Box (Small)","Land_CargoBox_V1_F",35000,"base"],
-	["Base in a Box (Medium)","Land_Cargo20_yellow_F",65000,"base1"],
+	["Base in a Box (Small)","Land_CargoBox_V1_F",30000,"base"],
+	["Base in a Box (Medium)","Land_Cargo20_yellow_F",60000,"base1"],
 	["Base in a Box (Large)","Land_Cargo40_white_F",85000,"base2"],
 	["Launchers","mission_USLaunchers",35000,"supply"],
 	["Assault Rifle","mission_USSpecial",35000,"supply"],
 	["Sniper Rifles","airdrop_Snipers",50000,"supply"],
 	["DLC Rifles","airdrop_DLC_Rifles",45000,"supply"],
 	["DLC LMGs","airdrop_DLC_LMGs",45000,"supply"],
-	["Food Stash","Land_Sacks_goods_F",10000,"picnic"],
-	["Water Barrels","Land_BarrelWater_F",10000,"picnic"]
+	["Food Stash","Land_Sacks_goods_F",5000,"picnic"],
+	["Water Barrels","Land_BarrelWater_F",5000,"picnic"]
 
 ];

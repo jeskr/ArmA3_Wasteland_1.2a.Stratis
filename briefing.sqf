@@ -46,6 +46,12 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Fixed] Tried to make a fix for instant deaths, so it should be able to revive. Except when blown up in a vehicle.
+<br/> [Changed] Less loot in buildings and vehicles (Test to see if it helps performance on server)
+<br/> [Removed] Nightstalker, TWS, TWS-MG Scopes removed from stores. A few boxes from mission Sniper Overwatch or Outpost can drop them.
+<br/> [Changed] NVS scope is now cheaper.
+<br/> [Changed] Airdrop Base in a Box is now cheaper.
+<br/> -----------------------------------------
 <br/> [Removed] Showing kill weapon. Not showing correct sometimes.
 <br/> [Changed] Agios Ioannis back as the old days
 <br/> [Changed] LZ Connor back as the old days
