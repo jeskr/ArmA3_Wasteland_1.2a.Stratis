@@ -64,11 +64,11 @@
 			_player addItem "FirstAidKit";
 			_player addHeadgear "H_Beret_Colonel";
 			_player addGoggles "G_Spectacles_Tinted";
-			_player addWeapon "SMG_02_F";
-			_player addPrimaryWeaponItem "optic_aco_smg";
-			_player addMagazine "30Rnd_9x21_Mag";
-			_player addMagazine "30Rnd_9x21_Mag";
-			_player addMagazine "30Rnd_9x21_Mag";
+			_player addWeapon "arifle_Mk20_ACO_F";
+//			_player addPrimaryWeaponItem "optic_aco_smg";
+			_player addMagazine "30Rnd_556x45_Stanag";
+			_player addMagazine "30Rnd_556x45_Stanag";
+			_player addMagazine "30Rnd_556x45_Stanag";
 			_player addWeapon "hgun_P07_F";
 			};
 			
@@ -78,13 +78,13 @@
 			removeAllWeapons _player;
 			_player addBackpack "B_AssaultPack_blk";
 			_player forceAddUniform "U_BG_Guerilla2_1";
-			_player addWeapon "SMG_02_F";
+			_player addWeapon "arifle_Mk20_ACO_F";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
-			_player addMagazine "30Rnd_9x21_Mag";
-			_player addMagazine "30Rnd_9x21_Mag";
-			_player addMagazine "30Rnd_9x21_Mag";
-			_player addPrimaryWeaponItem "optic_aco_smg";
+			_player addMagazine "30Rnd_556x45_Stanag";
+			_player addMagazine "30Rnd_556x45_Stanag";
+			_player addMagazine "30Rnd_556x45_Stanag";
+//			_player addPrimaryWeaponItem "optic_aco_smg";
 //			_player addWeapon "launch_RPG32_F";
 //			_player addMagazine "RPG32_F";
 //			_player addMagazine "RPG32_F";
