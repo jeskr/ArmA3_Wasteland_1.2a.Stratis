@@ -46,6 +46,13 @@ player createDiaryRecord ["changelog",
  [
 "v1.2a",
 "
+<br/> [Changed] All classes gear is changed (lowered), you dont spawn in ready for combat, you need to find/buy better gear.
+<br/> [Changed] 5% less chance of plane spawning at plane spawn sites.
+<br/> [Fixed] Tried to make a fix vehicle turret mag saving.
+<br/> [Fixed] Fixed saved grenades not throwable on rejoin.
+<br/> [Fixed] Fixed armor values in general store.
+<br/> [Fixed] Fixed many server side functions.
+<br/> -----------------------------------------
 <br/> [Fixed] Tried to make a fix for instant deaths, so it should be able to revive. Except when blown up in a vehicle.
 <br/> [Changed] Less loot in buildings and vehicles (Test to see if it helps performance on server)
 <br/> [Removed] Nightstalker, TWS, TWS-MG Scopes removed from stores. A few boxes from mission Sniper Overwatch or Outpost can drop them.

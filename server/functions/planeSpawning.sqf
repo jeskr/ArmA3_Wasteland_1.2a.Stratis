@@ -15,7 +15,7 @@ _counter = 0;
 {
 	if (["planeSpawn_", _x] call fn_startsWith) then
 	{
-		if (random 1 < 0.25) then // 25% chance spawning
+		if (random 1 < 0.20) then // changed from 25% to 20% chance spawning JK
 		{
 			_noBuzzard = ["_noBuzzard", _x] call fn_findString != -1;
 			[markerPos _x, markerDir _x, _noBuzzard] call planeCreation;
