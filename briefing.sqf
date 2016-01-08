@@ -25,20 +25,21 @@ player createDiaryRecord ["serverrules",
 <br/> 1.   Hacking or cheating will get you banned.
 <br/> 2.   NO Glitching or Combat logging is allowed it will cause punishment up to permanent ban.
 <br/> 3.   NO blocking or building around Stores or ATM´s is allowed it will cause punishment up to permanent ban.
-<br/> 4.   NO VOIP IN GLOBAL. Use the channels or Teamspeak!
-<br/> 5.   ONLY ENGLISH or DANISH CHATTING IS ALLOWED IN GLOBAL and SIDE-CHAT.
-<br/> 6.   As Independant NO VOIP IN SIDECHAT is allowed (Writing is allowed). Use the group channels or Teamspeak!
-<br/> 7.   Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban.
-<br/> 8.   Keep bad language to a minimum. If you have a problem with another player, take it to direct.
-<br/> 9.   Support your team and its objectives. DONT steal from your team mates.
-<br/> 10.  Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.
-<br/> 11.  Respect other players.
-<br/> 12.  Respect the administrators.
-<br/> 13.  Camping stores is allowed. Wasteland is a HARSH survival map. Learn to deal with it and go on your way.
-<br/> 14.  Bank Balances/Lost stuff etc. are non-refundable.
-<br/> 15.  High builded bases are NOT allowed (Too OP), they will be deleted.
-<br/> 16.  Disconnecting while being High Value Target will result in BAN.
-<br/> 17.  NO offending playernames is allowed.
+<br/> 4.   NO building or staying on spawn island (Xiros) Players found here get BAN.
+<br/> 5.   NO VOIP IN GLOBAL. Use the channels or Teamspeak!
+<br/> 6.   ONLY ENGLISH or DANISH CHATTING IS ALLOWED IN GLOBAL and SIDE-CHAT.
+<br/> 7.   As Independant NO VOIP IN SIDECHAT is allowed (Writing is allowed). Use the group channels or Teamspeak!
+<br/> 8.   Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban.
+<br/> 9.   Keep bad language to a minimum. If you have a problem with another player, take it to direct.
+<br/> 10.  Support your team and its objectives. DONT steal from your team mates.
+<br/> 11.  Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.
+<br/> 12.  Respect other players.
+<br/> 13.  Respect the administrators.
+<br/> 14.  Camping stores is allowed. Wasteland is a HARSH survival map. Learn to deal with it and go on your way.
+<br/> 15.  Bank Balances/Lost stuff etc. are non-refundable.
+<br/> 16.  High builded bases are NOT allowed (Too OP), they will be deleted.
+<br/> 17.  Disconnecting while being High Value Target will result in BAN.
+<br/> 18.  NO offending playernames is allowed.
 "
 ]];
 
